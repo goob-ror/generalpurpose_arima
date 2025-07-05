@@ -7,4 +7,26 @@ __pycache__/
 .env.*
 .DS_Store
 .ipynb_checkpoints/
-output/eda_plots/ 
+
+# Output directories
+output/
+output/plot/
+output/forecast/
+output/model_summary/
+output/accuracy_analysis/
+
+# Model files
+models/
+*.pkl
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
